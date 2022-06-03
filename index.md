@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "JacdoesjavaScript"
 ---
 
-I'm glad you are here. I plan to talk about ...
+Thanks for dropping by. I hope you enjoy looking at my work.
