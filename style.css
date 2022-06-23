@@ -1,0 +1,188 @@
+* {
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;   
+}
+
+@media only screen and (min-width: 660px) {
+    .container {
+        width: 80%;
+    }
+}
+
+
+
+#demo {
+    font-size: 2em;
+}
+
+/*the rock, paper, scissors buttons */
+#butR, #butP, #butS {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    padding: .3em;
+    border: none;
+    border-radius: .2em;
+    width: 90%; 
+    margin: 5%;
+}
+
+@media only screen and (min-width: 660px) {
+    #butR, #butP, #butS {
+        font-size: 2.2em;
+        width: 100%;
+        padding: .6em;
+        margin: 3%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) {
+    #butR, #butP, #butS {
+      font-size: 1.6em;
+    }
+    .container {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 900px) {
+    #butR, #butP, #butS {
+      font-size: 2em;
+    }
+    .container {
+        width: 60%;
+    }
+}
+
+.gameTime {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    border-radius: .4em;
+    border: 4px solid blue;
+}
+
+@media only screen and (min-width: 660px) {
+    .gameTime {
+        flex-direction: row;
+    }
+    }
+
+
+@media only screen and (min-width: 660px) {
+.winner {
+    display: flex;
+    flex-direction: row;
+    
+}
+}
+
+#demo, #computer, #result {
+    font-size: 1.2em;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: .15em 0 0 0;
+    height: 2em;
+    text-align: center;
+    border-radius: .2em;
+    border: 4px solid blue;
+}
+
+#result {
+    background-color: aqua;
+}
+
+@media only screen and (min-width: 660px) {
+.userWeapon, .computerWeapon {
+    width: 50%;
+}
+}
+
+#result {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 3em;
+    padding: .7em 0 0 0;
+}
+
+/* the headings for the scores*/
+.extra {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.3em;
+    line-height: .5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.user, .computer {
+    width: 50%;
+    text-align: center;
+    line-height: .3em;
+    padding: 0;
+    color: blue;
+}
+
+.user {
+    margin-right: 2%;
+}
+
+.computer {
+    margin-left: 2%;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0;
+    
+}
+
+.userScore, .computerScore {
+    background-color: white;
+    width: 50%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: .2em;
+    border: 4px solid blue;
+}
+
+.userScore {
+    margin-right: 2%;
+}
+
+.computerScore {
+    margin-left: 2%;
+}
+
+#userScore, #computerScore {
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: .15em 0 0 0;
+}
+
+.foot {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
